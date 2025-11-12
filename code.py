@@ -74,7 +74,6 @@ def reset():
     move_snake()
 
 def move_snake():
-    """Main snake movement"""
     global snake_dir, SCORE, game_running
 
     if not game_running:
